@@ -3,6 +3,7 @@
 ![Google Play Logo](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)
 
 ## 🧩 Problem Statement
+
 The Google Play Store hosts millions of Android apps across various categories. With such an enormous volume of data, it's challenging for developers, marketers, and users to understand what makes an app successful. This project explores the Google Play Store dataset to analyze:
 
 - What kind of apps receive higher ratings and reviews?
@@ -13,23 +14,36 @@ The Google Play Store hosts millions of Android apps across various categories. 
 The goal is to uncover insights that could help app developers and stakeholders optimize their product offerings and marketing strategies.
 
 ## 📂 Dataset Overview
+
 - **Source:** [Kaggle - Google Play Store Dataset](https://www.kaggle.com/datasets/lava18/google-play-store-apps)
 - **Total Records:** 10,000+ apps
 - **Features:**
   - App Name, Category, Rating, Reviews, Size, Installs, Type (Free/Paid), Price, Content Rating, Genres, Last Updated, Current Version, Android Version
 
 ## Features
+
 **App Category**: Category of the app. This could be beauty, business, entertainment, education...etc.
+
 **Rating:** How users rate the app out of 5, with 1 being the lowest rating and 5 being the highest.
+
 **Reviews:** The number of user reviews each app has received.
+
 **Size:** The memory size needed to install the application.
+
 **Installs:** The number of times each application has been installed by users.
+
 **Type:** Whether the app is free or a paid app.
+
 **Price:** The price of the app.
+
 **Content Rating:** This column specifies the intended audience for the app. Can be for teens, mature audience, or everyone.
+
 **Genres:** The sub-category for each app. Example: for the Education category, this could be Education: Pretend Play, for example.
+
 **Last Updated:** Release date of the most recent update for the app.
+
 **Current Ver:** The app's current version.
+
 **Android Ver:** The oldest version of Android OS supported by the app.
 
 ## 🛠️ Tools and Technologies Used
